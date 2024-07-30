@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFRAME</title>
+    <style>
+        div {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            row-gap: 20px;
+            column-gap: 20px;
+            align-content: center;
+            height: 100vh;
+            overflow-x: auto;
+            max-width: 100vw;
+            background-color: #000080;
+
+        }
+
+        @media screen and (max-width:768px) {
+            div {
+                grid-template-columns: repeat(2, 1fr);
+                background-color: #ff0000;
+            }
+        }
+
+        @media screen and (max-width:480px) {
+            div {
+                grid-template-columns: repeat(1, 1fr);
+                background-color: #adff2f;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <iframe src="https://www.youtube.com/embed/87y2vhj4EvA" frameborder="0"></iframe>
+        <iframe src="https://www.youtube.com/embed/87y2vhj4EvA" frameborder="0"></iframe>
+        <iframe src="https://www.youtube.com/embed/87y2vhj4EvA" frameborder="0"></iframe>
+        <iframe src="https://www.youtube.com/embed/87y2vhj4EvA" frameborder="0"></iframe>
+        <iframe src="https://www.youtube.com/embed/87y2vhj4EvA" frameborder="0"></iframe>
+        <iframe src="https://www.youtube.com/embed/87y2vhj4EvA" frameborder="0"></iframe>
+        <iframe src="https://www.youtube.com/embed/87y2vhj4EvA" frameborder="0"></iframe>
+        <iframe src="https://www.youtube.com/embed/87y2vhj4EvA" frameborder="0"></iframe>
+
+    </div>
+</body>
+
+</html>

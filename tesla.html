@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #maincontainer {
+            background: linear-gradient(to right, #0f2240, #14667c);
+            padding-top: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+            width: 50%;
+            margin: auto;
+
+        }
+
+        img {
+            width: 50px;
+            border-radius: 10px;
+            padding: 6px;
+        }
+
+        #container {
+            background-color: white;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            padding: 20px;
+            border: 1px solid black;
+            margin: auto;
+            border: none;
+            width: 50%;
+
+        }
+
+        #container1 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        #container2 input {
+            width: 100%;
+            padding: 5px;
+            box-sizing: border-box;
+            border-radius: 5px;
+        }
+
+        button {
+            color: white;
+            background-color: #0b88ed;
+            border: none;
+            border-radius: 20px;
+            padding: 5px;
+            box-sizing: border-box;
+            width: 100%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        input {
+            background-color: whitesmoke;
+            border: none;
+            box-shadow: 0px 0px 1px grey;
+        }
+
+        .container3,
+        .container4 {
+            display: inline-block;
+        }
+     .container3{
+            padding-left: 5px;
+     }
+        .container4 {
+            margin-left:120px;
+            color:#0b88ed;
+            padding-right: 5px;
+        }
+
+        .maincontainer2 a{
+            font-size: 10px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        a{
+            text-decoration: none;
+            cursor: pointer;
+            color: #000;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="maincontainer">
+        <div style="display: grid;place-items: center;">
+             <img src="./tesla logo/logo.png" alt="tesla">
+        </div>
+       
+        <div id="container">
+            <div id="container1">
+                <h1>SIGN IN</h1>
+                <P>Enter your details to proceed futher</P><br>
+            </div>
+            <div id="container2">
+                <form>
+                    <input type="text" placeholder="please enter phone number"><br><br>
+                    <input type="text" placeholder="please enter password"><br><br>
+                    <button class="SIGN IN">SIGN IN</button>
+                    <div class="maincontainer2">
+                        <div class="container3">
+                            <a href="#">FORGOT PASSWORD?</a>
+                        </div>
+                        <div class="container4">
+                            <a href="#" style="color:#0b88ed;">TO REGISTER</a>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
